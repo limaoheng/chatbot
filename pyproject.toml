@@ -14,6 +14,16 @@ langchain-openai = "^0.1.6"
 panel = "^1.4.2"
 utils = "^1.0.2"
 langchain = "^0.1.19"
+langchain-nomic = "^0.0.2"
+langchain-community = "^0.0.38"
+jq = "^1.7.0"
+tiktoken = "^0.7.0"
+langchainhub = "^0.1.15"
+chromadb = "^0.5.0"
+langgraph = "^0.0.48"
+tavily-python = "^0.3.3"
+gpt4all = "^2.6.0"
+firecrawl-py = "^0.0.8"
 
 
 [build-system]

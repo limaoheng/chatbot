@@ -117,5 +117,3 @@ user_input = get_input() #"tell me about the smartx pro phone and the fotosnap c
 response = get_completion_from_messages(system_message, user_input)
 print(response)
 
-
-
