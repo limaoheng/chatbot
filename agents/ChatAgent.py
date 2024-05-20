@@ -48,7 +48,7 @@ class ChatAgent:
             contents.append(line)
         return "\n".join(contents)
 
-    def get_completion_from_messages(self, user_message: str, context: Optional[str]) -> str:
+    def get_completion_from_messages(self, user_message: str, context: Optional[str] = None) -> str:
         messages = [
             ("system", self.SYSTEM_MESSAGE),
             ('human', f"{user_message}"),

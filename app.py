@@ -1,5 +1,5 @@
 
-from ChatAgent import ChatAgent
+from agents.ChatAgent import ChatAgent
 from vectors.VectorStore import VectorStore
 from vectors.WebsiteCrawler import WebsiteCrawler
 from dotenv import load_dotenv, find_dotenv

@@ -24,6 +24,8 @@ langgraph = "^0.0.48"
 tavily-python = "^0.3.3"
 gpt4all = "^2.6.0"
 firecrawl-py = "^0.0.8"
+fastapi = "^0.111.0"
+uvicorn = "^0.29.0"
 
 
 [build-system]
